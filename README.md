@@ -8,5 +8,5 @@ To run the script follow the given directions:
 1. Make sure you have python3 installed (this can be verified with ```python3 --v```)
 2. Download pytube if you haven't already using ```pip3 install pytube```
 3. Clone the repo and navigate to the corresponding directory
-4. run the code by typing ```python3 downloader.py youtube_link directory```.
+4. run the code by typing ```python3 downloader.py youtube_link directory_path```.
 5. Wait for a few minutes for your video to download.
