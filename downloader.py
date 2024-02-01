@@ -1,11 +1,15 @@
 from pytube import YouTube
+import sys
 
 
-link = input("Link to YouTube video: ")
-folder = input("Path to desired directory: ")
+link = sys.argv[1]
+folder = sys.argv[2]
 yt = YouTube(link)
 
-print(yt.title)
-
+print("Started download")
 yd = yt.streams.get_highest_resolution()
-yd.download(folder)
+try:
+    yd.download(folder)
+except:
+    print("Something went wrong please try again")
+print("Succesfully downloaded video!")
