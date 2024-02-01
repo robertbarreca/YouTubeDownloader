@@ -1,7 +1,7 @@
 # Youtube Downloader
 
 ## Overview
-This Python script provides a simple way to download YouTube videos. I created this tool before going on a road trip to ensure I had entertainment during the parts of the journey lacking cell service. Moreover, it helped me avoid the need for YouTube Premium subscriptions, allowing me to enjoy videos offline without incurring extra costs.
+This Python script provides a simple way to download YouTube videos. I created this tool before going on a road trip to ensure I had entertainment during the parts of the car ride lacking cell service. Moreover, it helped me avoid the need for YouTube Premium subscriptions, allowing me to enjoy videos offline without incurring extra costs.
 
 ## Usage
 To run the script follow the given directions:
